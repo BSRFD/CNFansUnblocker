@@ -31,7 +31,7 @@
 <body>
     <h1>Install Bookmarklet</h1>
     <p>To use the bookmarklet, drag the following button to your bookmarks bar.</p>
-    <a href="javascript:(function(){var element=document.querySelector('.site-bar.d-none.d-md-flex');if(element){element.parentNode.removeChild(element);}})();" class="bookmarklet">Remove Site Bar</a>
-    <p>After adding it to your bookmarks bar, you can click on it to remove the site bar from any page.</p>
+    <a href="javascript:(function() { var modal = document.getElementById('keywords-modal'); if (modal) { modal.parentNode.removeChild(modal); } else { alert('Element not found!'); } })();" class="bookmarklet">Remove Site Bar</a>
+    <p>After adding it to your bookmarks bar, just click on the bookmark any time you encounter a CNFans "infringement" pop-up.</p>
 </body>
 </html>
