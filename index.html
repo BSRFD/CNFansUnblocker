@@ -31,7 +31,7 @@
 <body>
     <h1>CNFans Pop-up Remover</h1>
     <p>Click on the blue button below and drag it to your bookmarks.</p>
-    <a href="javascript:(function(){var modal=document.getElementById('keywords-modal');if(modal){modal.parentNode.removeChild(modal);}var agreeCheckbox=document.getElementById('agree');if(agreeCheckbox){agreeCheckbox.disabled=false;}})();" class="bookmarklet">CNFans Pop-up Remover</a>
+    <a href="javascript:(function(){var modal=document.getElementById('keywords-modal');if(modal){modal.parentNode.removeChild(modal);}var agreeCheckbox=document.getElementById('agree');if(agreeCheckbox){agreeCheckbox.disabled=false;}var buttons=document.querySelectorAll('button:disabled');buttons.forEach(function(btn){btn.disabled=false;});})();" class="bookmarklet">CNFans Pop-up Remover</a>
     <p>Once added to your bookmarks, any time you encounter the infringement pop-up on CNFans that stops you from ordering, click on the bookmark. It will delete the pop-up and you can order like normal.</p>
     <p>2024/12/22: Updated to also "unblock" the "Check Agree" button that was preventing adding items to cart.</p>
 </body>
